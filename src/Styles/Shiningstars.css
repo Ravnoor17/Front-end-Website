@@ -1,0 +1,65 @@
+.ssimg {
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+/* .shiningstars-main {
+    text-align: left !important;
+} */
+
+.achievement-listitem-div {
+  width: 100% !important;
+}
+
+.achievement-list-div ul {
+  list-style: none !important;
+}
+
+.member-image {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  transition: 0.55s ease;
+}
+
+.member-row {
+  margin-bottom: 40px;
+}
+
+.member-name {
+  font-size: 36px;
+  font-weight: 500;
+  color: rgb(187, 187, 187);
+  margin-bottom: 40px;
+  transition: 0.55s ease;
+}
+
+.member-active {
+  color: #000;
+}
+
+.member-details {
+  transition: 0.55s ease;
+}
+
+.member-list {
+  list-style: none !important;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 576px) {
+  .shiningstars-main {
+    width: 100% !important;
+  }
+}
+
+.shiningstars-description {
+  text-align: left;
+}
+
+.shiningstars-row {
+  margin-bottom: 120px;
+}
+.xtra {
+  margin-top: 80px;
+}

@@ -1,0 +1,40 @@
+.loading-screen-main {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+
+.loading-screen-main img {
+    height: 260px;
+    margin-bottom: 40px;
+}
+
+.loading-screen-title {
+    font-family: var(--sans-serif);
+    color: #222;
+    font-size: 64px;
+    font-weight: bolder;
+}
+
+.loading-screen-main p {
+    font-family: var(--sans-serif);
+    color: #222;
+    font-size: 24px;
+}
+
+.loading-screen-spinners-div {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-screen-spinner {
+    color: #222;
+    margin: 6px;
+}

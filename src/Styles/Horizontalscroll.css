@@ -1,0 +1,52 @@
+.hs-god{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space:nowrap;
+    display: flex;
+    
+}
+.hs-jod{
+    width: 800%;
+    display: flex;
+    animation: xyz 8sec linear infinite alternate-reverse;
+}
+
+.akku {
+    width: 100% !important;
+    height: 100px !important;
+
+}
+
+@keyframes xyz{
+    0%{
+        margin-left: 0%;
+    }
+
+    12.5%{
+        margin-left: -100%;
+    }
+
+    25%{
+        margin-left: -200%;
+    }
+
+    37.5%{
+        margin-left: -300%;
+    }
+
+    50%{
+        margin-left: -400%;
+    }
+
+    62.5%{
+        margin-left: -500%;
+    }
+
+    75%{
+        margin-left: -600%;
+    }
+
+    87.5%{
+        margin-left: -700%;
+    }
+}

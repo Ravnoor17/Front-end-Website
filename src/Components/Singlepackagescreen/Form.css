@@ -1,0 +1,238 @@
+.price-card-main {
+    padding: 12px 20px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.price-card {
+    text-align: left;
+}
+
+.price-card1 {
+    background-color: white;
+}
+
+.price-card1 p {
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.price-card1 p span {
+    color: black;
+    text-decoration: line-through;
+}
+
+.price-card1 h2 {
+    color: var(--primary-black);
+    margin: 5px 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.price-card1 h2 span {
+    font-size: 15px;
+    background-color: orange;
+    padding: 6px 9px;
+    color: var(--white);
+    border-radius: 8px;
+    position: relative;
+    top: -6.5px !important;
+    left: 5px;
+}
+
+.price-card1 h4 {
+    color: var(--primary-black);
+    margin-top: -1px;
+    padding: 0;
+    font-size: 19px;
+}
+
+.price-card2 {
+    margin-top: -5px !important;
+}
+
+.price-card2 button {
+    background-color: var(--primary-black);
+    border: none;
+    width: 100%;
+    line-height: 47px;
+    color: var(--white) !important;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: 0.2s ease-in;
+}
+
+.price-card2:hover button {
+    border: .25px solid var(--primary-black);
+    background-color: var(--white);
+    color: var(--primary-black) !important;
+}
+
+/**Form COmponent**/
+.form-main-ak {
+    padding: 12px 20px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+/* .form-main-ak1{
+
+} */
+.form-main-ak1 h6 {
+    padding: 15px 0 8px 0;
+    font-size: 17.5px;
+}
+
+/* .form-main-form-akk{
+
+} */
+.form-main-form-akk input,
+.akk-txtar {
+    margin: 5px 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1.5px solid rgb(190, 190, 190);
+    outline: none;
+    padding-left: 8px;
+    font-size: 14px !important;
+    padding-right: 15px;
+}
+
+.akk-txtar {
+    height: auto !important;
+}
+
+.form-main-form-akk input::placeholder {
+    color: rgb(143, 143, 143) !important;
+    font-size: 15px !important;
+}
+
+.akk-txtar::placeholder {
+    color: rgb(143, 143, 143) !important;
+    font-size: 15px !important;
+}
+
+.form-main-ass-ak {
+    background-color: white;
+    text-align: left;
+    margin-bottom: 14px;
+    margin-top: 8px;
+}
+
+.form-main-ass-ak p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.form-main-btn-ak button {
+    background-color: var(--primary-black);
+    border: none;
+    width: 100%;
+    line-height: 50px;
+    color: var(--white);
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.contac-info-ak {
+    padding: 12px 20px 28px 20px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    background-color: white;
+    text-align: left;
+}
+
+.contact-info-akk-in h6:first-child {
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+
+.contact-info-akk-in p {
+    font-size: 15px;
+}
+
+.contact-info-akk-in a {
+    position: relative;
+    left: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+.contact-info-akk-in a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.contact-info-akk-in h6:last-child {
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 14px;
+    position: relative;
+    left: 30px;
+}
+
+
+.why-pacauli-ak {
+    margin-bottom: 30px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.why-pac-main {
+    background-color: var(--primary-black);
+    width: 100%;
+    line-height: 50px;
+    color: var(--white);
+    font-size: 22px;
+}
+
+.main-pac-content {
+    text-align: left;
+    padding: 10px 10px 8px 10px;
+}
+
+.last-why-pac-ak {
+    padding: 10px 0;
+}
+
+.main-pac-content p {
+    padding: 0;
+    margin: 0;
+    margin-left: 25px;
+}
+
+.l-main-pac-p {
+    font-weight: 550;
+    margin-left: 8px !important;
+}
+
+.icon-bahar-ak {
+    position: relative;
+    left: -8px !important;
+    color: green;
+    top: -1px;
+    font-size: 18px;
+}
+
+.rtyui {
+    color: red;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.link-pay {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.price-card2:hover .link-pay {
+    color: var(--primary-black);
+}

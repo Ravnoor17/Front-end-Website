@@ -1,0 +1,144 @@
+.parent-card3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+}
+.parent-card3 a:hover{
+    text-decoration: none;
+}
+
+.card3 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 40px;
+    grid-template-areas: "image""text""stats";
+    border-radius: 18px;
+    background: white;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    height: 400px;
+}
+
+.card3-image {
+    grid-area: image;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+    background-size: cover;
+    height: 350px;
+}
+
+.card3-text {
+    grid-area: text;
+    margin: 15px;
+    margin-top: -15px;
+}
+
+.card3-text h4 {
+
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    
+}
+
+/* .card3-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: black;
+} */
+
+/* .card3-stats .stat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+.card3-stats .type{
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.card3-stats .value{
+    font-size: 22px;
+    font-weight: 500;
+}
+.card3-stats.midi{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.card3-stats .value sup{
+    font-size: 12px;
+} */
+.card3:hover {
+    transform: scale(1.05);
+}
+
+.card3 .tagyu {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background: linear-gradient(45deg, rgb(220, 233, 48), rgb(255, 115, 0));
+    width: 70px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.card3 .tagyu p {
+    color: white;
+    font-size: 13px;
+   
+}
+
+.loci {
+    margin-bottom: 5px;
+    margin-right: 2px;
+}
+
+
+.card3-ro {
+    text-align: left;
+}
+
+.card3-text .rev-card3 {
+
+    
+    font-size: 14px;
+    position: relative;
+    right: 63px;
+}
+
+#clocki {
+    font-size: 14px;
+    position: relative;
+    bottom: 2px;
+    margin-right: 3px;
+}
+
+#rpe {
+    font-size: 17px;
+    margin-right: -3px;
+}
+
+.apun{
+
+    font-size: 14px;
+    text-align: left;
+    margin-top: -49px;
+    margin-left: 10px;
+}

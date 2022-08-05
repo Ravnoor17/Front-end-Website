@@ -1,0 +1,372 @@
+.single-package-main {
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    overflow: hidden;
+}
+
+.imagegalleryy {
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+
+/* .img-carou{
+    display: flex;
+} */
+
+.single-package-upper {
+    width: 100%;
+    margin-right: auto;
+}
+
+.single-package-upper img {
+    width: 100%;
+    max-height: 94vh;
+}
+
+/* .img-carou1{
+    width: 20%;
+}
+.img-carou1 img{
+    width: 100%;
+    padding: 10px;
+    height: 34.9vh;
+}
+.img-carou2{
+    width: 20%;
+}
+.img-carou2 img{
+    width: 100%;
+    padding: 10px;
+    height: 34.9vh;
+} */
+
+
+
+
+.single-package-lower {
+    background-color: rgb(241, 241, 241);
+}
+
+.sngl-pack-row {
+    /* background-color: yellow; */
+    margin-top: 30px;
+}
+
+.singel-pack-name {
+    padding: 24px 20px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.single-pack-side-design {
+    height: 40px;
+    background-color: var(--primary-black);
+    width: 5px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: -4px;
+}
+
+.single-pck-1-row {
+    text-align: left;
+}
+
+.single-pck-1-row-icon {
+    color: var(--primary-black);
+    margin-right: 10px;
+    font-size: 23px;
+}
+
+.single-pck-1-row h3 {
+    color: var(--black);
+}
+
+.single-pck-1-row h5 {
+    color: rgb(65, 64, 64);
+    font-size: 18.5px;
+}
+
+
+.sngl-pack-short-itn {
+    padding: 24px 20px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.single-pck-2-row {
+    text-align: left;
+}
+
+.single-pck-2-row-icon {
+    color: var(--primary-black);
+    margin-right: 8px;
+}
+
+.single-pck-2-row p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.single-pack-itn {
+    margin: 10px 0;
+}
+
+.single-pack-itn h5 {
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 6px 10px;
+    border-radius: 7px;
+    margin: 20px 0;
+}
+
+.single-pack-itn h6 {
+    width: fit-content;
+    font-weight: 600;
+}
+
+.single-pack-itn p {
+    padding-left: 24px !important;
+}
+
+/**Package option**/
+
+.sng-prc-tag {
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 6px;
+    margin: 20px 0;
+    padding: 25px 30px;
+}
+
+@media screen and (max-width: 450px) {
+    .sng-prc-tag {
+        padding: 20px 20px;
+    }
+}
+
+.sng-prc-tag-date {
+    font-size: 16px !important;
+    font-weight: normal !important;
+}
+
+.sng-date {
+    margin: 16px -7px !important;
+    padding: 10px 0px !important;
+    border-radius: 6px;
+}
+
+.sng-prc-tag-date {
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width : 950px) {
+    .sng-date {
+        margin: 16px -10px !important;
+        overflow: hidden;
+    }
+
+    .sng-prc-tag-date {
+        font-size: 12px !important;
+        padding-left: 3px;
+    }
+}
+
+
+.sng-prc-tag1 h6 {
+    color: rgb(102, 102, 102);
+}
+
+.sng-prc-tag2 h6 {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.sng-prc-tag2 h5 {
+    font-size: 16px;
+}
+
+.sng-prc-tag2 h5 span {
+    color: black !important;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.sng-prc-tag2 .seat-availablity1 {
+    color: green !important;
+    font-size: 17.5px;
+}
+
+.sng-prc-tag2 .seat-availablity2 {
+    color: #ff8303 !important;
+}
+
+.sng-prc-tag2 .seat-availablity3 {
+    color: red !important;
+}
+
+
+.single-package-navbar {
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: white;
+    z-index: 5;
+    border: 1.5px solid rgb(209, 209, 209);
+    margin-bottom: 30px;
+    overflow-x: scroll;
+    width: 100%;
+    height: 58px;
+}
+
+.single-package-navbar::-webkit-scrollbar {
+    height: 4px !important;
+}
+
+/* Track */
+.single-package-navbar::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+/* Handle */
+.single-package-navbar::-webkit-scrollbar-thumb {
+    background: rgb(218, 218, 218);
+}
+
+/* Handle on hover */
+.single-package-navbar::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-black);
+}
+
+.single-pack-nav-item {
+    padding: 0 19.3px;
+    line-height: 50px;
+    border-left: 1px solid rgb(201, 201, 201);
+}
+
+.single-pack-nav-item a {
+    color: black;
+}
+
+.nav-time-active a {
+    margin-bottom: 50px;
+    border-bottom: 2px solid gray;
+    color: var(--primary-black) !important;
+}
+
+
+
+.sng-pack-review {
+    width: 300px;
+    background-color: var(white);
+    border-radius: 0px;
+    margin: 35px auto 20px;
+    background-color: rgb(230, 230, 230);
+}
+
+.sng-pack-review-img {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 18px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 4px solid var(--primary-black);
+    box-sizing: border-box;
+}
+
+.sng-pack-review-img div {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    top: 0px;
+    background-color: white;
+}
+
+.sng-pack-review-img div h1 {
+    line-height: 45px;
+    color: var(--primary-black);
+    text-transform: uppercase;
+}
+
+.sng-pack-review-cnt {
+    padding: 10px;
+}
+
+.sng-pack-review-cnt h5 {
+    margin: 0px 0 10px 0;
+    text-align: center;
+    color: var(--primary-black);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sng-pack-review-cnt h6 {
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.review-user-image {
+    height: 55px;
+    width: 55px;
+    border-radius: 55px;
+}
+
+/* .single-package-right{
+    background-color: white; 
+} */
+.sksks {
+    height: 300vh !important;
+}
+
+@media screen and (max-width: 767px) {
+    .skska {
+        display: none;
+    }
+}
+
+
+/* MODAL CARD CSS */
+
+.modal-card {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-card-img {
+    height: 80px;
+    margin: 12px;
+}
+
+.modal-link {
+    text-decoration: none !important;
+    color: var(--primary-black);
+    transition: 0.25s ease;
+}
+
+.modal-link:hover {
+    color: var(--secondary) !important;
+}
+
+.modal-button {
+    background-color: var(--primary-black) !important;
+    border: 0.5px solid var(--primary-black) !important;
+    transition: 0.35s ease;
+}
+
+.modal-button:hover {
+    background-color: white !important;
+    color: var(--primary-black) !important;
+}
+
+.sng-batch {
+    text-transform: none !important;
+}

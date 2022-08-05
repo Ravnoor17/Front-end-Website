@@ -1,0 +1,32 @@
+.team-socials-main-div {
+    margin-top: 16px;
+}
+
+.team-social-icon {
+    font-size: 24px;
+    color: #222;
+    transition: 0.05s ease-in-out;
+}
+
+.team-social-icon:hover {
+    color: rgb(117, 117, 117);
+    font-size: 26px;
+}
+
+.team-socials-row {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-socials-col {
+    max-width: fit-content;
+}
+
+.team-socials-text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2px !important;
+}

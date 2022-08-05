@@ -1,0 +1,67 @@
+.social-god {
+    background: var(--primary-black);
+  }
+  
+  .button-block {
+    width: 600px;
+    margin: 50px auto;
+  }
+  
+  .social {
+    display: inline-block;
+    margin: 30px;
+    cursor: pointer;
+  }
+  .social a {
+    display: block;
+    background: white;
+    padding: 20px;
+    position: relative;
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+    box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
+  }
+  .social a::before {
+    
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    left: -20px;
+    top: 10px;
+    background: rgba(241, 238, 238, 0.7);
+    transform: rotate(0deg) skewY(-45deg);
+  }
+  .social a::after {
+    
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    transform: rotate(0deg) skewX(-45deg);
+    background: rgba(241, 238, 238, 0.7);
+    transform: rotate(45deg) scewY(-45deg);
+  }
+  .social a:hover {
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 30px rgba(241, 238, 238, 0.7);
+  }
+  .social a i {
+    color: white;
+    font-size: 30pt;
+  }
+
+  
+  @media screen and (max-width: 576px){
+    .button-block {
+      width: 100px;
+      margin: 50px auto;
+    }
+    .social-god {
+      background: var(--primary-black);
+      display: none;
+    }
+    
+  }

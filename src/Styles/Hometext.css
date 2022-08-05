@@ -1,0 +1,208 @@
+.hometext-god {
+  padding-bottom: 50px;
+}
+
+.headings-aks {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.headings-aks h1 {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.soul {
+  cursor: pointer;
+  position: relative;
+  white-space: nowrap;
+}
+
+.soul::before,
+.soul::after {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  top: 100%;
+  left: 0;
+  pointer-events: none;
+}
+
+.soul::before {
+  content: "";
+}
+
+.regaltos {
+  font-size: 1.375rem;
+}
+
+.regaltos::before {
+  transform-origin: 50% 100%;
+  transition: clip-path 0.3s, transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+  clip-path: polygon(
+    0% 0%,
+    0% 100%,
+    0 100%,
+    0 0,
+    100% 0,
+    100% 100%,
+    0 100%,
+    0 100%,
+    100% 100%,
+    100% 0%
+  );
+}
+
+.regaltos:hover::before {
+  transform: translate3d(0, 2px, 0) scale3d(1.08, 3, 1);
+  clip-path: polygon(
+    0% 0%,
+    0% 100%,
+    50% 100%,
+    50% 0,
+    50% 0,
+    50% 100%,
+    50% 100%,
+    0 100%,
+    100% 100%,
+    100% 0%
+  );
+}
+
+.regaltos span {
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+}
+
+.regaltos:hover span {
+  transform: translate3d(0, -2px, 0);
+}
+
+.photuu img {
+  height: 400px;
+  width: 550px;
+  object-fit: cover;
+}
+
+.headd {
+  display: grid;
+  place-content: center;
+  height: auto;
+  background: white;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.headd h1 {
+  font-size: 25px!important;
+  max-width: 75vw;
+  color: black;
+  transition: all 0.4s ease;
+}
+.headd h1 span {
+  background-image: linear-gradient(transparent calc(75% - 10px), grey 5px);
+  background-size: 0;
+  background-repeat: no-repeat;
+  display: inline;
+  transition: 0.5s ease;
+  transition: all 0.4s ease;
+}
+.headd h1:hover span {
+  background-size: 100%;
+}
+
+.caption {
+  padding-bottom: 20px;
+  padding-top: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.explore-btn0.row{
+  width: 100%;
+}
+.explore-btn0{
+  width:350px;
+}
+.horizontal {
+  padding-left: 100px;
+  width:100px;
+}
+@media screen and (max-width: 576px) {
+  .regaltos span {
+    font-size: 20px;
+  }
+}
+
+.horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 150px;
+  height: 50px;
+  margin: 20px;
+  border: 1px solid black;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+.horizontal > .text {
+  position: relative;
+  color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    white 0%,
+    white 50%,
+    black 50%,
+    black 100%
+  );
+  background-repeat: repeat;
+  background-size: 200%;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: background-position 300ms;
+}
+.horizontal::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  transform-origin: 100% 0;
+  transform: scale3d(0, 1, 1);
+  transition: transform 300ms;
+}
+.horizontal:hover .text {
+  background-position: 0 0;
+}
+.horizontal:hover::before {
+  transform-origin: 0 0;
+  transform: scale3d(1, 1, 1);
+}
+
+.explore-btn0 {
+  padding-left: 0px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .explore-btn0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0 !important;
+  }
+}
+

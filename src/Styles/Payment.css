@@ -1,0 +1,277 @@
+/* .dates-dropdown {
+  padding-top: 100px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: absolute;
+  top: -50px;
+  left: -80px;
+} */
+
+.img-pay {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.logo-pay {
+  height: 50px;
+  width: 50px;
+}
+
+.pay-pckg-title {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+/* .pkgtype-dropdown {
+  position: absolute;
+  top: -50px;
+  left: -120px;
+  padding-top: 100px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+} */
+.col-col {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#dropdown-basic-button {
+  background-color: transparent !important;
+  color: black !important;
+  border-color: black !important;
+}
+
+.total-cost {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.total-col h5 {
+  text-align: left;
+}
+
+.total-col1 h5 {
+  text-align: right;
+}
+
+.line {
+  width: 100%;
+}
+
+.total-col h5,
+.total-col1 h5 {
+  font-size: 16px;
+}
+
+.seats-col {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.payment-btn {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.btn-payment {
+  background-color: transparent !important;
+  color: black !important;
+  border-color: black !important;
+  width: 100px !important;
+  transition: all 0.4s ease;
+}
+
+.btn-payment:hover {
+  background-color: rgb(158, 240, 35) !important;
+  color: black !important;
+  border-color: transparent !important;
+  width: 100px !important;
+}
+
+.close-btn {
+  background-color: transparent !important;
+  color: black !important;
+  border-color: black !important;
+  width: 100px !important;
+  transition: all 0.4s ease;
+}
+
+.close-btn:hover {
+  background-color: red !important;
+  color: white !important;
+  border-color: transparent !important;
+  width: 100px !important;
+}
+
+.plus-minus {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.pm {
+  position: relative;
+  top: 3px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+/* .row-1{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+} */
+.c-col {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+@media screen and (max-width: 990px) {
+  .plus-minus {
+    padding-top: 50px;
+    display: flex;
+    font-size: 1.2rem;
+  }
+
+  .pm {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
+  .dates {
+    padding-bottom: 50px;
+    padding-left: 235px !important;
+  }
+
+  .types {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .seats {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 70px !important;
+  }
+
+  .total-cost {
+    padding-bottom: 50px;
+    padding-top: 50px !important;
+  }
+
+  .col-type1 {
+    text-align: left !important;
+  }
+  
+  .col-type2 {
+    text-align: right !important;
+  }
+  .col-col {
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .dates {
+    padding-bottom: 50px;
+    padding-left: 10px !important;
+  }
+
+  .types {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .seats {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 70px !important;
+  }
+
+  .plus-minus {
+    padding-top: 50px;
+    display: flex;
+    font-size: 1.2rem;
+  }
+
+  .pkgtype-dropdown {}
+
+  .total-cost {
+    padding-bottom: 50px;
+    padding-top: 50px !important;
+  }
+}
+
+/* Booked css */
+
+.booked-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.booked-div img {
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.booked-div h4 {
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.booked-div p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.booked-link {
+  color: var(--primary);
+  text-decoration: none !important;
+}
+
+.booked-link:hover {
+  color: var(--secondary);
+}
+
+/* Donation wali CSS */
+
+.donation-div {
+  margin: 20px 0;
+  margin-top: 40px;
+  padding: 12px;
+  padding-bottom: 0px;
+  text-align: justify;
+  background-color: rgba(249, 178, 8, 0.25);
+  border: 2px solid rgba(249, 178, 8, 1);
+  border-radius: 14px;
+}
+
+.donation-div h5 {
+  font-size: 16px;
+}
+
+.donation-div p {
+  font-size: 13px;
+}
+
+.donation-radio-btn, .radio-col {
+  font-size: 13.5px !important;
+}
+
+/* 
+.donation-radio-btn {
+  margin-left : 24px;
+}
+
+.donation-radio-btn:nth-of-type(1) {
+  margin-left: 0 !important;
+} */

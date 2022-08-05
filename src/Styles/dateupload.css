@@ -1,0 +1,51 @@
+.add-package-form {
+    margin-top: 40px;
+}
+
+.add-package-form-section {
+    margin-left: 48px;
+    margin-right: 24px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.form-add-package {
+    text-align: left;
+    align-items:flex-start ;
+    padding: 0 !important;
+    margin-left: 28px;
+}
+
+.add-package-form-group {
+    width: 80%;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.inline-button {
+    display: inline;
+    margin: 8px 8px 8px 0px;
+    background-color: #33332e !important;
+    border: none !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.itinerary-input {
+    margin-top: 8px;
+}
+
+.add-package-button {
+    width: 200px;
+    background-color: #3a3a35 !important;
+    border: none !important;
+    color: rgb(255, 255, 255) !important;
+}
+.add-package-form-input-datee-input{
+    width:80px!important;
+    display: inline-flex!important;
+    margin-right: 5px!important;
+    margin-bottom: 15px!important;
+}
+.add-package-form-input{
+    width:250px!important;
+}

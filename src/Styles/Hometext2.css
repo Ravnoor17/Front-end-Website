@@ -1,0 +1,213 @@
+.hometext-god{
+    padding-bottom: 50px;
+    
+}
+
+.headings-aks {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .headings-aks h1 {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .soul {
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .soul::before,
+  .soul::after {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    top: 100%;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .soul::before {
+    content: '';
+  }
+  
+  .regaltoss {
+    font-size: 1.375rem;
+    color: white;
+  }
+  
+  .regaltoss::before {
+    transform-origin: 50% 100%;
+    transition: clip-path 0.3s, transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+    clip-path: polygon(0% 0%, 0% 100%, 0 100%, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%, 100% 100%, 100% 0%);
+  }
+  
+  .regaltoss:hover::before {
+    transform: translate3d(0, 2px, 0) scale3d(1.08, 3, 1);
+    clip-path: polygon(0% 0%, 0% 100%, 50% 100%, 50% 0, 50% 0, 50% 100%, 50% 100%, 0 100%, 100% 100%, 100% 0%);
+  }
+  
+  .regaltoss span {
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+  }
+  
+  .regaltoss:hover span {
+    transform: translate3d(0, -2px, 0);
+  }
+
+  .photuu img{
+      height: 400px;
+      object-fit: cover;
+      width: 550px;
+  }
+
+  .headdd {
+    display: grid;
+    place-content: center;
+    height: auto;
+    background: #222222;
+    font-family: "Red Hat Display", sans-serif;
+  }
+  
+  .headdd h1 {
+    font-size: 25px!important;
+    max-width: 75vw;
+    color: white;
+    transition: all .4s ease;
+  }
+  .headdd h1 span {
+    background-image: linear-gradient(transparent calc(75% - 10px), grey 5px);
+    background-size: 0;
+    max-width: 150px!important;
+    background-repeat: no-repeat;
+    display: inline;
+    transition: 0.5s ease;
+    transition: all .4s ease;
+  }
+  .headdd h1:hover span {
+    background-size: 100%;
+  }
+  .captionn{
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: justify;
+  }
+  
+  @media screen and (max-width: 576px){
+    .regaltoss span{
+      font-size: 20px;
+    }
+  }
+
+  .horizontall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    border: 1px solid white;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none !important;
+  }
+  .horizontall > .text {
+    position: relative;
+    color: transparent;
+    background-image: linear-gradient(90deg, black 0%, black 50%, white 50%, white 100%);
+    background-repeat: repeat;
+    background-size: 200%;
+    background-position: 100% 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: background-position 300ms;
+  }
+  .horizontall::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    transform-origin: 100% 0;
+    transform: scale3d(0, 1, 1);
+    transition: transform 300ms;
+  }
+  .horizontall:hover .text {
+    background-position: 0 0;
+  }
+  .horizontall:hover::before {
+    transform-origin: 0 0;
+    transform: scale3d(1, 1, 1);
+  }
+
+  .explore-btn00.row{
+    width: 100%;
+  }
+  .explore-btn00{
+    width:350px;
+  }
+  .horizontall {
+    padding-left: 100px;
+    width:100px;
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+    .explore-btn00 {
+      padding-left: 0px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .explore-btn00 {
+      padding-left: 0px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  /* @media only screen and (max-width: 740px) {
+    .explore-btn00 {
+      padding-left: 180px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .explore-btn00 {
+      padding-left: 150px !important;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .explore-btn00 {
+      padding-left: 110px !important;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .explore-btn00 {
+      padding-left: 80px !important;
+    }
+  } */

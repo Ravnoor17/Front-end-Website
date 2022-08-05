@@ -1,0 +1,42 @@
+.card-aks {
+  background-color: transparent;
+  display: block;
+  width: 300px;
+  min-height: 90px;
+  border: 3px solid black;
+  padding: 15px;
+  margin: calc(50vh - 30px) auto 0 auto;
+  box-shadow: 10px -10px 0 -3px white, 10px -10px black, 20px -20px 0 -3px white,
+    20px -20px black, 30px -30px 0 -3px white, 30px -30px black,
+    40px -40px 0 -3px white, 40px -40px black;
+  transition: box-shadow 1s, top 1s, left 1s;
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.card-aks:hover {
+  top: -40px;
+  left: 40px;
+  box-shadow: 0 0 0 -3px white, 0 0 0 0 black, 0 0 0 -3px white, 0 0 0 0 black,
+    0 0 0 -3px white, 0 0 0 0 black, 0 0 0 -3px white, 0 0 0 0 black;
+}
+
+.card-aks-god {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card-aks p {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.card-aks h2 {
+  font-size: 14px;
+  font-weight: normal;
+}

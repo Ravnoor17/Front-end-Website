@@ -1,0 +1,17 @@
+.curved-div1 {
+    background: white;
+    text-align: center;
+  }
+
+  .curved-div1 svg {
+    display: block;
+  }
+
+  .curved-div2 {
+    background: #222222;
+    text-align: center;
+  }
+
+  .curved-div2 svg {
+    display: block;
+  }

@@ -1,0 +1,69 @@
+.admin-login-row {
+    height: 100vh !important;
+}
+
+.admin-login-colored-col {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-login-png {
+    height: 280px;
+}
+
+.admin-login-heading {
+    color: var(--white);
+    font-family: var(--sans-serif);
+    margin-top: 20px;
+}
+
+.admin-login-text {
+    color: var(--white);
+    font-family: var(--sans-serif);
+    margin-top: 10px;
+}
+
+/* .admin-login-form-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.admin-login-form-heading {
+    color: var(--black);
+    font-family: var(--sans-serif);
+    margin-top: 180px;
+}
+
+.admin-login-form-text {
+    color: var(--black);
+    font-family: var(--sans-serif);
+    margin-top: 20px;
+}
+
+.admin-login-form {
+    padding: 60px 140px;
+}
+
+.admin-login-form-input, .admin-login-form-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.admin-login-form-button {
+    background-color: var(--primary);
+    font-family: var(--sans-serif);
+    border: var(--primary);
+    transition: 0.15s ease;
+}
+
+.admin-login-form-button:hover {
+    background-color: transparent;
+    font-family: var(--sans-serif);
+    color: var(--primary);
+    border: 1px solid var(--primary) !important;
+}

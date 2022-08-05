@@ -1,0 +1,129 @@
+.pdf-main-div {
+    height: 141.8vh !important;
+    width: 101vh !important;
+    border-left: 16px solid var(--primary);
+    border-right: 16px solid var(--primary);
+    padding: 20px;
+}
+
+.invoice-logo {
+    text-align: center;
+}
+
+.invoice-logo img {
+    height: 160px;
+    margin-bottom: 30px;
+    margin-top: 12px;
+}
+
+.invoice-title-col h4 {
+    font-size: 36px;
+    color: var(--primary);
+    line-height: 36px;
+    text-align: left;
+    font-weight: 900;
+}
+
+.invoice-details-col {
+    text-align: left;
+}
+
+.invoice-details-col p {
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+
+.invoice-details-col span {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.details-col p {
+    font-size: 13px;
+}
+
+.more-details-div {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.user-details h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.user-details p {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.more-details-div h6 {
+    font-size: 20px;
+}
+
+.details-col p {
+    margin-bottom: 6px;
+}
+
+.main-details-div {
+    margin: 18px;
+    margin-top: 40px;
+}
+
+.main-details-title-row {
+    background-color: var(--primary);
+    padding: 6px;
+}
+
+.main-details-title-row h5 {
+    color: white;
+    text-align: left;
+    font-size: 16px;
+}
+
+.main-details-details-row .col {
+    margin-top: 6px;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.main-details-details-row p {
+    text-align: left;
+    margin-top: 8px;
+    font-size: 14px;
+    padding-left: 4px;
+}
+
+.main-details-details-row .col:nth-of-type(6) {
+    border-right: none !important;
+}
+
+.grand-total-divider {
+    height: 2px;
+    border-top: 3px solid rgba(0, 0, 0, 0.15) !important;
+}
+
+.bottom-div {
+    position: relative;
+    top: 220px;
+    margin: 18px;
+    border-top: 4px solid var(--primary);
+    padding-top: 12px;
+}
+
+.bottom-div p {
+    color: rgba(0, 0, 0, 0.65);
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.download-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none !important;
+    background: none !important;
+}
+
+.download-icon {
+    font-size: 36px;
+}

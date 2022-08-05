@@ -1,0 +1,93 @@
+.booking-card {
+    padding: 8px;
+    border-radius: 12px !important;
+    margin: 24px;
+    box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.25s ease-in;
+}
+
+.booking-card:hover {
+    transform: scale(1.015);
+    box-shadow: 0px 0px 20px 16px rgba(0, 0, 0, 0.1);
+}
+
+.booking-card-image {
+    width: 100%;
+    min-height: 280px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 6px !important;
+}
+
+.details-col {
+    text-align: left;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.main-details-col {
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.details-col h4 {
+    font-size: 30px;
+    margin-top: 12px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.details-col h6 {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.booking-card-btn {
+    position: absolute;
+    font-size: 20px;
+    border: none !important;
+    background: none !important;
+    transition: 0.25s ease-in;
+}
+
+.booking-card-btn:hover {
+    transform: scale(1.15);
+    color: var(--primary);
+}
+
+.btn-1 {
+    right: 20px;
+    top: 5px;
+}
+
+.btn-2 {
+    right: 20px;
+    top: 40px;
+}
+
+.btn-2 a {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-2 a:hover {
+    color: var(--primary);
+}
+
+@media screen and (max-width: 992px) {
+    .booking-card-image {
+        width: 100% !important;
+    }
+
+    .main-details-col {
+        border-right: none !important;
+    }
+
+    .details-col {
+        border-left: none !important;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .booking-card {
+        margin: 24px 12px;
+    }
+}
